@@ -1,5 +1,5 @@
 ---
-title: "yeast growth"
+title: "yeast growth plots"
 output: 
   html_document: 
     keep_md: yes
@@ -8,6 +8,11 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+* set up initial bioscreen expt on March 6 2017, at 16C
+
+* goals for here: are they growing? How much variability do we see across wells?
+
 
 Load packages
 ```{r, warning = FALSE, message = FALSE}

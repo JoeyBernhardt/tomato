@@ -1,5 +1,10 @@
-# yeast growth
+# yeast growth plots
 
+
+
+* set up initial bioscreen expt on March 6 2017, at 16C
+
+* goals for here: are they growing? How much variability do we see across wells?
 
 
 Load packages
