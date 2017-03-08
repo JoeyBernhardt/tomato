@@ -16,7 +16,7 @@ library(janitor)
 ```
 
 Read in data
-```{r}
+```{r message=FALSE, warning=FALSE}
 yeast_raw <- read_csv("/Users/Joey/Documents/tomato/data-raw/bioscreen/16C_test_yeast_march6.csv")
 
 yeast <- yeast_raw %>% 
@@ -39,7 +39,7 @@ Plot!
 	theme(axis.text.x = element_blank(), axis.text.y = element_blank()) + 
 	theme(strip.background = element_blank(),
 				strip.text.x = element_blank()) + 
-	theme(text = element_text(size = 18))
+	theme(text = element_text(size = 12))
 
 ```
 

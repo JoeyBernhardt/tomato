@@ -13,21 +13,7 @@ Read in data
 
 ```r
 yeast_raw <- read_csv("/Users/Joey/Documents/tomato/data-raw/bioscreen/16C_test_yeast_march6.csv")
-```
 
-```
-## Parsed with column specification:
-## cols(
-##   .default = col_double(),
-##   Time = col_time(format = "")
-## )
-```
-
-```
-## See spec(...) for full column specifications.
-```
-
-```r
 yeast <- yeast_raw %>% 
 	clean_names() %>% 
 	filter(time > 905) %>%
@@ -49,7 +35,7 @@ Plot!
 	theme(axis.text.x = element_blank(), axis.text.y = element_blank()) + 
 	theme(strip.background = element_blank(),
 				strip.text.x = element_blank()) + 
-	theme(text = element_text(size = 18))
+	theme(text = element_text(size = 12))
 ```
 
 ![](01_yeast_growth_prep_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
